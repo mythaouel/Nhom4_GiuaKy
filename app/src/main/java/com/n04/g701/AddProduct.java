@@ -3,18 +3,14 @@ package com.n04.g701;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.n04.model.Product;
 
 public class AddProduct extends AppCompatActivity {
 
     EditText edtName,edtPrice;
     Button btnOk, btnCancel;
-
-    Product p;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,19 +22,7 @@ public class AddProduct extends AppCompatActivity {
     }
 
     private void addEvents() {
-        btnCancel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
 
-        btnOk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
     }
 
     private void linkViews() {
