@@ -3,11 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Git/Nhom4_GiuaKy/app/src/main/res/layout/activity_add_product.xml" value="0.2" />
-        <entry key="..\:/Git/Nhom4_GiuaKy/app/src/main/res/layout/activity_edit_product.xml" value="0.2" />
-        <entry key="..\:/Git/Nhom4_GiuaKy/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Git/Nhom4_GiuaKy/app/src/main/res/menu/context_menu.xml" value="0.152" />
-        <entry key="..\:/Git/Nhom4_GiuaKy/app/src/main/res/menu/main_menu.xml" value="0.264" />
+        <entry key="..\:/Github/Nhom4_GiuaKy/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Github/Nhom4_GiuaKy/app/src/main/res/layout/item_layout.xml" value="0.184375" />
       </map>
     </option>
   </component>
