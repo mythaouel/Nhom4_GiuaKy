@@ -58,7 +58,6 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         int count=getCount();
         if (count==0){
             queryExec("INSERT INTO "+TB_NAME+" VALUES('LP01','LAPTOP',12,'Apple',null)");
-
         }
     }
     public boolean insertData(String id,String name, double price,String brand, byte[] photo){
