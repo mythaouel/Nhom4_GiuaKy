@@ -1,4 +1,4 @@
-package com.n04.g701.model;
+package com.n04.model;
 
 public class Product {
     private String productID;

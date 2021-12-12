@@ -1,4 +1,4 @@
-package com.n04.g701.adapter;
+package com.n04.adapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,7 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.n04.g701.R;
-import com.n04.g701.model.Product;
+import com.n04.model.Product;
+import com.n04.model.Product;
 
 import java.util.List;
 
