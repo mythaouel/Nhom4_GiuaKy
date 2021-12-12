@@ -41,6 +41,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db= getReadableDatabase();
         return db.rawQuery(sql,null);
     }
+
     public boolean insertData(String id,String name, Double price,String brand, byte[] photo){
         try {
             SQLiteDatabase db = getWritableDatabase();
