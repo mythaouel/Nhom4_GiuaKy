@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 
 public class MyDatabaseHelper extends SQLiteOpenHelper {
     public static final int DB_VERSION=1;
-    public static final String DB_NAME="product.sqlite";
+    public static final String DB_NAME="electronic.sqlite";
 
     public static final String  TB_NAME="PRODUCT";
 
@@ -21,13 +21,14 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
     public static final String COL_PHOTO="HINH";
 
     public MyDatabaseHelper(@Nullable Context context) {
-        super(context, DB_NAME,null, DB_VERSION);
+        super(context, DB_NAME, null, DB_VERSION);
     }
+
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String sql="CREATE TABLE IF NOT EXISTS " +TB_NAME +"("+ COL_ID + " VARCHAR(20) PRIMARY KEY, "+
-                COL_NAME+ " VARCHAR(100), " + COL_PRICE + " MONEY, "+ COL_BRAND + " VARCHAR(100), " + COL_PHOTO + " BLOG)";
+                COL_NAME+ " VARCHAR(100), " + COL_PRICE + " MONEY, "+ COL_BRAND + " VARCHAR(100), " + COL_PHOTO + " BLOB)";
         sqLiteDatabase.execSQL(sql);
     }
 
@@ -59,4 +60,4 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
             return false;
         }
     }
-}
+};
